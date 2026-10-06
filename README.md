@@ -17,6 +17,8 @@ npm run build
 
 Vite 会将可部署的 HTML、CSS 和 JavaScript 输出到 `dist/`。本项目部署在组织 Pages 根域名，资源基路径为 `/`。
 
+GitHub Actions 工作流会在推送到 `main` 后构建 `dist/` 并发布到 GitHub Pages。仓库设置中的 **Settings → Pages → Build and deployment → Source** 需要选择 **GitHub Actions**。
+
 本地预览生产构建：
 
 ```bash
