@@ -1,16 +1,24 @@
-# IT_logo 项目展示
+# IT智云社官网
 
-## 📝 项目简介
-这是一个简单的网页前端项目，主要用于展示 [这里填一下你的具体用途，比如：课程作业/个人练习/Logo展示页面]。
+应急管理大学 IT智云社的静态介绍网站，使用 React 和 Vite 构建，可部署到组织的 GitHub Pages：`https://ncist-it.github.io/`。
 
-## 🚀 如何运行
-1. 下载仓库中的 `主page.html` 文件。
-2. 使用浏览器（Chrome、Edge 等）直接打开该文件即可查看效果。
-3. 或者在 VS Code 中使用 "Live Server" 插件运行。
+## 本地开发
 
-## 📂 文件说明
-- **主page.html**: 项目的核心代码文件，包含页面的结构和样式。
+```bash
+npm install
+npm run dev
+```
 
-## 📸 运行效果截图
-*(如果你有截图，可以在这里上传一张图片，或者先留着这段文字)*
-![运行效果截图](images/screenshot.png)
+## 构建静态页面
+
+```bash
+npm run build
+```
+
+Vite 会将可部署的 HTML、CSS 和 JavaScript 输出到 `dist/`。本项目部署在组织 Pages 根域名，资源基路径为 `/`。
+
+本地预览生产构建：
+
+```bash
+npm run preview
+```
